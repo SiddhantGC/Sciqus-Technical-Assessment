@@ -1,0 +1,256 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to bottom, #4e8cff, #63e4ff);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.leave-management-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* LoginForm.css */
+
+.login-form {
+  max-width: 300px;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4e8cff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* RegistrationForm.css */
+
+.registration-form {
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.registration-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.registration-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4e8cff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* StudentList.css */
+
+.student-list {
+  max-width: 600px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.student-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-list th, .student-list td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.student-list th {
+  background-color: #4e8cff;
+  color: #fff;
+}
+
+.student-list tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.student-list button {
+  background-color: #4e8cff;
+  color: #fff;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+
+/* StudentDetails.css */
+
+.student-details {
+  max-width: 400px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.student-details p {
+  margin-bottom: 12px;
+}
+
+/* EditStudent.css */
+
+.edit-student {
+  max-width: 400px;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.edit-student label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.edit-student input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.edit-student button {
+  background-color: #4e8cff;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Header.css */
+
+header {
+  background-color: #4e8cff;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+header p {
+  margin: 0;
+}
+
+header button {
+  background-color: #fff;
+  color: #4e8cff;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+/* Sidebar.css */
+
+aside {
+  width: 200px;
+  background-color: #4e8cff;
+  color: #fff;
+  padding: 10px;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+aside li {
+  margin-bottom: 8px;
+}
+
+aside a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* LandingPage.css */
+
+.leave-management-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leave-management-container h1 {
+  color: #4e8cff;
+}
+
+.leave-management-container .content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.leave-management-container img {
+  max-width: 400px;
+  height: auto;
+}
+
+/* Add more styles as needed */
